@@ -1,0 +1,30 @@
+@import '~muse-ui/dist/muse-ui.css'; //基础CSS
+@import "~muse-ui/less/vars.less"; // 默认基础的变量
+@import "~muse-ui/less/theme-vars.less";  // 默认组件变量
+@import "~muse-ui/less/theme.less"; // 主题相关的样式
+
+@import '~iview/src/styles/index.less';
+
+@import './animate.css'; //animate动画
+@import './base.less'; //自定义基础变量
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+html{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+.iconfont {  //字体图片库
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
